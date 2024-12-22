@@ -1,22 +1,3 @@
 [build]
   command = "npm run build"
   publish = ".next"
-
-[[redirects]]
-  from = "https://fitness.radiateur-electrique.blog/*"
-  to = "/data/builds/accessoires-de-fitness-pas/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "https://coco.radiateur-electrique.blog/*"
-  to = "/data/builds/accessoires-de-fitness-pas/:splat"
-  status = 200
-  force = true
-
-
-[[redirects]]
-  from = "http://coco.radiateur-electrique.blog/*"
-  to = "/data/builds/accessoires-de-fitness-pas/:splat"
-  status = 200
-  force = true
